@@ -12,21 +12,14 @@ a {
 a:hover {
 	color:#5f0099;
 }
-h1, h3 {
+h1, h2, h3 {
 	font-weight: 700;
-}
-
-h2 {
-	font-weight: 200;
 }
 h4, h5 {
 	font-weight:600;
 }
 h6 {
 	font-weight:500;
-}
-h6.white a.weblink {
-	color: red;
 }
 .white {
 	color:#ffffff !important;
@@ -63,7 +56,6 @@ h6.white a.weblink {
 }
 .navbar .nav-item a:hover {
 	color: #5f0099;
-	text-decoration: underline;
 }
 .navbar .nav-link {
 	position: relative;
@@ -159,19 +151,10 @@ h6.white a.weblink {
 .section-padding {
 	padding:80px 0px;
 }
-.feature.section-padding.feature.section-padding .container .row .col-md-12 .sectioner-header.text-center h3 {
-	color: #8D1EFB;
-  }
 .sectioner-header {
 	width:69%;
 	margin:0 auto;
 }
-.feature.feature>.container>.row>.col-md-12>.section-content.text-center>.row .col-md-4.col-sm-12>.media.single-feature.wow.fadeInUp .media-body>h5 {
-    color: #5EE25A;
-}
-.icon-border.icon-border span::before {
-	color: #f775b4;
-  }
 .line {
 	height: 2px;
 	width: 50px;
@@ -191,9 +174,6 @@ h6.white a.weblink {
 .sectioner-header p {
 	color:#818992;
 	font-size: 17px;
-}
-.team.section-padding.team.section-padding .container .row .col-md-12 .sectioner-header.text-center {
-	border: 1px solid #8D1EFB;
 }
 .section-content {
 	margin-top: 80px;
@@ -340,9 +320,6 @@ h6.white a.weblink {
 	font-size: 17px;
 	margin-bottom: 0px;
 }
-.navbar.navbar.navbar-expand-lg.nav-scroll~.feature.section-padding+section.team.section-padding div.container div.row div.col-md-12 div.section-content.text-center>div.row .col-md-4 div.team-detail.wow.bounce h4 {
-	color: #2E74A7;
-}
 .testimonial {
 	background: #7a60ff;
 	background: linear-gradient(to left, #7a60ff, #cd9ffa);
@@ -359,9 +336,6 @@ h6.white a.weblink {
 	height: 100%;
 	background: url(images/pattern.png);
 }
-section.testimonial.section-padding div.container div.row div.col-md-12 div.section-content div.row div.offset-md-2.col-md-8.col-sm-12 div.bx-wrapper div.bx-viewport div.slider div.slider-item div.test-text.test-text span {
-	text-decoration: underline;
-  }
 .bx-prev {
 	left: -90px !important;
 	background: url(images/arrow-left.png) no-repeat !important;
@@ -519,9 +493,6 @@ input {
 }
 .footer-copy p {
 	margin-bottom:0px;
-}
-footer.footer-copy.footer-copy .container-fluid .row .col-md-12 p a {
-	color:  #844E41;
 }
 @media all and (max-width:991px) {
 .navbar .navbar-collapse {
