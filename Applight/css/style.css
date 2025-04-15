@@ -8,19 +8,19 @@ h6.white a.weblink {
 	color: #5f0099;
 	text-decoration: underline;
 }
-.feature.section-padding.feature.section-padding .container .row .col-md-12 .sectioner-header.text-center h3 {
+.feature.section-padding div.container div.row div.col-md-12 div.sectioner-header.text-center h3{
 	color: #8D1EFB;
   }
-.feature.feature>.container>.row>.col-md-12>.section-content.text-center>.row .col-md-4.col-sm-12>.media.single-feature.wow.fadeInUp .media-body>h5 {
+.feature.section-padding[data-scroll-index='2'] .container .row .col-md-12 .section-content.text-center .row .col-md-4.col-sm-12 .media.single-feature.wow.fadeInUp .media-body h5 {
     color: #5EE25A;
 }
-.icon-border.icon-border span::before {
+.feature.section-padding .container .row .icon-border span::before {
 	color: #f775b4;
   }
-.team.section-padding.team.section-padding .container .row .col-md-12 .sectioner-header.text-center {
+html body .team.section-padding .container .row .col-md-12 .sectioner-header.text-center {
 	border: 1px solid #8D1EFB;
 }
-.navbar.navbar.navbar-expand-lg.nav-scroll~.feature.section-padding+section.team.section-padding div.container div.row div.col-md-12 div.section-content.text-center>div.row .col-md-4 div.team-detail.wow.bounce h4 {
+.navbar.navbar-expand-lg.nav-scroll ~ .feature.section-padding + section.team.section-padding[data-scroll-index='3'] .container .row .col-md-12 .section-content.text-center > .row .col-md-4 .team-detail.wow.bounce h4 {
 	color: #2E74A7;
 }
 section.testimonial.section-padding div.container div.row div.col-md-12 div.section-content div.row div.offset-md-2.col-md-8.col-sm-12 div.bx-wrapper div.bx-viewport div.slider div.slider-item div.test-text.test-text span {
